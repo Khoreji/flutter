@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
           Icon(Icons.web, size: 30),
           Icon(Icons.person, size: 40),
         ],
+        animationDuration: Duration(milliseconds: 100),
+        color: Colors.amber,
         ),
       ),
     );
