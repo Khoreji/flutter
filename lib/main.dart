@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         items: [
           Icon(Icons.add, size: 30,),
           Icon(Icons.web, size: 30),
-          Icon(Icons.person, size: 30),
+          Icon(Icons.person, size: 40),
         ],
         ),
       ),
