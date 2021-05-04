@@ -16,16 +16,17 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         bottomNavigationBar: CurvedNavigationBar(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.white,
         items: [
           Icon(Icons.add, size: 30,),
           Icon(Icons.web, size: 30),
           Icon(Icons.person, size: 40),
         ],
         animationDuration: Duration(milliseconds: 100),
-        color: Colors.amber,
+        color: Colors.tealAccent,
+        height: 50.0,
         ),
       ),
     );
   }
-}
+} 
